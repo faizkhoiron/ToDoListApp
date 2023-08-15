@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@libs/*": ["libs/*"],
+      "@assets/*": ["public/*"],
+      "@assets": ["public/index.js"]
     }
   }
 }
